@@ -195,3 +195,12 @@ a {
     color: #F9FAF8;
 }
 
+.footer .container {
+    display: flex;
+    background: #1F2937;
+    font-size: 16px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
