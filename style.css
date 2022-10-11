@@ -91,6 +91,107 @@ a {
     width: 420px;
 }
 
-* {
-    border: 1px red solid;
+
+
+.information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.information .boxes {
+    display: flex;
+    justify-content: center;
+    
+    gap: 130px;
+    flex-direction: row;
+}
+
+.information p {
+    flex-wrap: wrap;
+    width: 230px;
+    color: #858484;
+}
+
+.information .boxes img {
+    width: 230px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.quote .container {
+    display: flex;
+    padding: 74px 74px;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: flex-end;
+    width: 95%;
+}
+
+
+.quote .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote .name {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.call .container {
+    display: flex;
+    background: #3882F6;
+    margin: 50px 160px;
+    padding: 50px 50px;
+    border-radius: 15px;
+}
+
+.call .holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.call .left {
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.call button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px #F9FAF8 solid;
+    border-radius: 7px;
+    width: 150px;
+    height: 50px;
+    margin-right: 80px;
+}
+
+.call .title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+.call .content {
+    line-height: 0%;
+    color: #F9FAF8;
+}
+
